@@ -6,7 +6,7 @@ Rewrite of this [iyzipay-node](https://github.com/iyzico/iyzipay-node) with Type
 
 npm i iyzipay-ts
 
-#Setup
+# Setup
 
 ```
 import Iyzipay from "iyzipay-ts"
