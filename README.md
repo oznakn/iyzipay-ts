@@ -8,9 +8,10 @@ npm i iyzipay-ts
 
 #Setup
 
+```
 import Iyzipay from "iyzipay-ts"
 
 var iyzipay = new Iyzipay({apiKey: "sandbox-afXhZPW0MQlE4dCUUlHcEopnMBgXnAZI",
     secretKey: "sandbox-wbwpzKIiplZxI3hh5ALI4FJyAcZKL6kq",
     uri: "https://sandbox-api.iyzipay.com"});
-
+```
