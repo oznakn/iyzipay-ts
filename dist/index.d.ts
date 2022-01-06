@@ -2,7 +2,7 @@ import { IConfig } from "./interfaces/IConfig";
 import { Payment, ApiTest, Apm, Approval, BinNumber, Bkm, BkmInitialize, BouncedBankTransferList, Cancel, Card, CardList, CheckoutForm, CheckoutFormInitialize, Disapproval, InstallmentInfo, PaymentItem, PayoutCompletedTransactionList, PeccoInitialize, PeccoPayment, Refund, RefundToBalance, SettlementToBalance, SubMerchant, Subscription, SubscriptionCard, SubscriptionCheckoutForm, SubscriptionCustomer, SubscriptionExistingCustomer, SubscriptionPayment, SubscriptionPricingPlan, SubscriptionProduct, ThreedsInitialize, ThreedsPayment, UniversalCardStorageInitialize } from "./resources/services";
 export * from "./enum";
 export * from "./resources/services";
-declare class Iyzipay {
+export declare class Iyzipay {
     protected readonly config: IConfig;
     payment: Payment;
     apiTest: ApiTest;

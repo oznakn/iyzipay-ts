@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Iyzipay = void 0;
 const tslib_1 = require("tslib");
 const services_1 = require("./resources/services");
 (0, tslib_1.__exportStar)(require("./enum"), exports);
@@ -76,5 +77,6 @@ class Iyzipay {
         this.universalCardStorageInitialize = new services_1.UniversalCardStorageInitialize(config);
     }
 }
+exports.Iyzipay = Iyzipay;
 exports.default = Iyzipay;
 //# sourceMappingURL=index.js.map

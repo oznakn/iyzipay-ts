@@ -38,7 +38,7 @@ import {
 export * from "./enum";
 export * from "./resources/services";
 
-class Iyzipay {
+export class Iyzipay {
   public payment: Payment;
   public apiTest: ApiTest;
   public apm: Apm;
