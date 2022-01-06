@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "Iyzipay api with @types/node",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha $(find test -name '*Test.js')",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/okancancoskun/iyzipay-ts"
+    "url": "git@github.com/oznakn/iyzipay-ts"
   },
-  "author": "Okan Coskun",
+  "author": "OZAN AKIN",
   "license": "ISC",
   "dependencies": {
     "@types/mocha": "^9.0.0",

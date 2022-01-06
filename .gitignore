@@ -1,5 +1,3 @@
 node_modules
-dist
 .mock
-*.lock
-*-lock.json
+.DS_Store

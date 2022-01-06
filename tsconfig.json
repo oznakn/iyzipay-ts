@@ -12,6 +12,7 @@
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowJs": true,
+    "declaration": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
