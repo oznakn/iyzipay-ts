@@ -7,6 +7,7 @@ export class Payment {
 
   async create(body: ICreatePaymentRequest) {
     var path = "/payment/auth";
+    console.log(body);
     return await _post(path, body, this.config);
   }
 
